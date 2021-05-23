@@ -1,8 +1,7 @@
 server:
   port: 8081
 spring:
-  profiles:
-    active: dev
+  profiles: dev
   application:
     name: animal-inventory
   datasource:
