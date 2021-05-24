@@ -6,8 +6,8 @@ spring:
     name: animal-inventory
   datasource:
     url: "${SPRING_DATASOURCE_URL}"
-    username: "{db-username}"
-    password: "{db-password}"
+    username: "${db-username}"
+    password: "${db-password}"
     hikari:
       connectionTimeout: 20000
       maximumPoolSize: 5
