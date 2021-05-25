@@ -5,7 +5,7 @@ spring:
   application:
     name: animal-inventory
   datasource:
-    url: jdbc:postgresql://localhost:5432/compose-postgres
+    url: jdbc:postgresql://db:5432/compose-postgres
     username: "${db-username}"
     password: "${db-password}"
     hikari:
